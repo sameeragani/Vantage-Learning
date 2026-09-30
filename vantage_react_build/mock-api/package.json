@@ -1,0 +1,12 @@
+{
+  "name": "vantage-learning-mock-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Mock API for the Vantage Learning React frontend",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

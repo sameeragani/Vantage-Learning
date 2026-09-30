@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "firstName": "Vantage",
+      "lastName": "Admin",
+      "email": "admin@vantagelearning.com",
+      "password": "admin123",
+      "role": "admin",
+      "enrolledCourses": [],
+      "completedModules": {}
+    },
+    {
+      "firstName": "Shameera",
+      "lastName": "Gani",
+      "email": "sameeragani12@gmail.com",
+      "password": "1234QWER",
+      "role": "admin",
+      "enrolledCourses": [],
+      "completedModules": {},
+      "id": "T11ot80"
+    },
+    {
+      "firstName": "fajila",
+      "lastName": "imthi",
+      "email": "fajilaimthi3@gmail.com",
+      "password": "1234QWER",
+      "role": "student",
+      "enrolledCourses": [
+        "ui-design-foundations"
+      ],
+      "completedModules": {
+        "ui-design-foundations": [
+          0,
+          1
+        ]
+      },
+      "id": "yN9sqMb"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ui-design-foundations",
+      "title": "UI Design Foundations",
+      "category": "Design",
+      "badgeClass": "badge-gold",
+      "duration": "9h 40m",
+      "modules": 6,
+      "price": 4100,
+      "status": "Published",
+      "description": "Learn the fundamentals of user interface design — layout, type, color, and componentry — and build a portfolio-ready project along the way. No prior design experience required."
+    },
+    {
+      "id": "sql-for-analysts",
+      "title": "SQL for Analysts",
+      "category": "Data",
+      "badgeClass": "badge-teal",
+      "duration": "11h 05m",
+      "modules": 8,
+      "price": 4900,
+      "status": "Published",
+      "description": "Go from zero to confident with SQL — querying, joins, subqueries, and the workflows real analysts use every day."
+    },
+    {
+      "id": "technical-writing-101",
+      "title": "Technical Writing 101",
+      "category": "Career",
+      "badgeClass": "badge-ink",
+      "duration": "6h 20m",
+      "modules": 5,
+      "price": 3200,
+      "status": "Published",
+      "description": "Write documentation, specs, and guides that people actually read and understand."
+    },
+    {
+      "id": "intro-to-data-visualization",
+      "title": "Intro to Data Visualization",
+      "category": "Data",
+      "badgeClass": "badge-teal",
+      "duration": "8h 15m",
+      "modules": 7,
+      "price": 4500,
+      "status": "Published",
+      "description": "Turn raw numbers into charts and dashboards people can actually act on."
+    },
+    {
+      "id": "product-management-basics",
+      "title": "Product Management Basics",
+      "category": "Career",
+      "badgeClass": "badge-ink",
+      "duration": "7h 30m",
+      "modules": 6,
+      "price": 3700,
+      "status": "Published",
+      "description": "The fundamentals of scoping, prioritizing, and shipping product work."
+    },
+    {
+      "id": "design-systems-in-practice",
+      "title": "Design Systems in Practice",
+      "category": "Design",
+      "badgeClass": "badge-gold",
+      "duration": "8h 50m",
+      "modules": 6,
+      "price": 5400,
+      "status": "Published",
+      "description": "Build and maintain a design system that scales across a real product team."
+    }
+  ]
+}
